@@ -1,0 +1,65 @@
+h1, h2{
+    color:rgb(0, 0, 85)
+}
+body{
+    background-color: rgb(177, 177, 255);
+}
+ 
+
+    
+   li {
+    float: left;
+  }
+  
+ 
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+   }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+  }
+  #divmenu{ clear:both}
+
+  #izquierda{ float: right;}/* añadir propiedad para quitarlo si la pantalla es pequeña*/
+  
+
+  a{
+      color: rgb(104, 99, 99);
+      display:block;
+  }
+  .aimg{
+    color: rgb(104, 99, 99);
+    display: inline;
+    padding: 20px;
+   
+   
+
+  }
+  .logos{
+      
+ width: 50px;
+ height: 50px;
+  }
+
+  
+
+  
+    
+   
+    /* si pasa de los 600px se establece una anchura de 600*/
+    @media(min-width:600px) {
+        #letra{
+        width: 600px;
+        }
+    }
+
+    
